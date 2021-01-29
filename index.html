@@ -96,7 +96,7 @@
 							</ul>
 						-->
 						</li>
-						<li><a href="#">Message</a></li>
+						<li><a href="#fh5co-started">Message</a></li>
 					</ul>
 				</div>
 			</div>
@@ -115,21 +115,28 @@
 							<h1>The Little Fox</h1>
 							<h2>have fallen in Love for</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-			<!--
-							<p><a href="MIDICRONICA - San Francisco.mp3" class="btn btn-default btn-sm">Save the date</a></p>
-								-->
-							
-							<audio autoplay="autoplay"
-							controls="controls"
-							loop="loop">
-							<source src="MIDICRONICA - San Francisco.mp3" type="audio/mp3" />
-							</audio>
+			
+							<!--<p><a href="MIDICRONICA - San Francisco.mp3" class="btn btn-default btn-sm">Save the date</a></p>-->
+						
+							<script>
+								function play() {
+								  var audio = document.getElementById("audio");
+								  audio.play();
+								}
+							  </script>
+						  
+							  <p class="btn btn-default btn-sm" onclick="play()">Let the Story Begins</p>
+							  <audio id="audio" src="MIDICRONICA - San Francisco.mp3" loop="loop"></audio>
+						  
 
-							<audio autoplay="autoplay"
+						<!--<audio autoplay="autoplay"
 							controls="controls"
 							loop="loop">
 							<source src="MIDICRONICA - San Francisco.mp3" type="audio/mp3" />
 							</audio>
+							-->	
+
+						
 					
 						</div>
 					</div>
@@ -212,7 +219,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>From：爱你的大灰狼</span>
 					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<p>纤云弄巧，飞星传恨，银汉迢迢暗度。金风玉露一相逢，便胜却人间无数。</p>
 				</div>
 			</div>
 			<div class="row">
@@ -313,8 +320,9 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Our Memories</span>
-					<h2>大灰狼和小狐狸的相册</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<h2>The Gallery</h2>
+					<p>For the Gray Wolf and the Little Fox.</p>
+					<p>我与世界只差一个你，因为是你，晚一点没关系。只要余生都是你就行。</p>
 				</div>
 			</div>
 			<div class="row row-bottom-padded-md">
@@ -462,7 +470,7 @@
 			<div class="row">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>认识你之后的歌单变化</span>
+						<span>认识小狐狸之后 大灰狼的歌单变化</span>
 						<h2>Songs</h2>
 					</div>
 				</div>
@@ -578,7 +586,7 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Message Board</h2>
-					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
+					<p>留言板大灰狼时不时会看哦.</p>
 				</div>
 			</div>S
 			<div class="row animate-box">
@@ -592,12 +600,12 @@
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
+								<label for="email" class="sr-only">Content</label>
+								<input type="email" class="form-control" id="email" placeholder="Content">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
+							<button type="submit" class="btn btn-default btn-block">Send</button>
 						</div>
 					</form>
 				</div>
